@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  border: 5px solid black;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  background-color: grey;
+}
+strong {
+  font: size 40px;
+}
+.shipment {
+  color: grey;
+}
+a:hover {
+  text-decoration: none;
+}
+button:link {
+  font-size: 30px;
+}
+button:hover {
+  font-size: 30px;
+  color: white;
+  background-color: black;
+}
