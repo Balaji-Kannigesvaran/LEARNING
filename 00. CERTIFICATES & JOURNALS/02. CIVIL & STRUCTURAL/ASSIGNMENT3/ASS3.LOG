@@ -1,0 +1,218 @@
+
+
+ ETABS Ultimate 64-bit 18.1.1 Build 2148 (Analysis Build 9780/64)
+ File: C:\Users\Sankar\Downloads\ETABS COURSE\ASSIGNMENT3\ASS3.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2021/03/27  16:52:11
+
+
+ RUNNING ANALYSIS AS A SEPARATE PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =        1060
+    WITH RESTRAINTS                        =          46
+    WITH MASS                              =          22
+ NUMBER OF FRAME/TENDON ELEMENTS           =         672
+ NUMBER OF SHELL ELEMENTS                  =         864
+ NUMBER OF CONSTRAINTS/WELDS               =           6
+ NUMBER OF LOAD PATTERNS                   =          12
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =           9
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =      15.895 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+ (Env. variable SAPFIRE_NUM_THREADS        =           0)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           4
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           4
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           4
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           4
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           4
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           4
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =           4
+
+
+ E L E M E N T   F O R M A T I O N                                      16:52:11
+
+
+ NUMBER OF COUPLED CONSTRAINT EQUATIONS    =           0
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        16:52:11
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        3060
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =       49851
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   S T A T I C   C A S E S                                  16:52:12
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF CASES TO SOLVE            =           6
+ NUMBER OF CASES TO SOLVE PER BLOCK        =           6
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: DEAD
+ CASE: LIVE
+ CASE: SUPER DEAD
+ CASE: ELX
+ CASE: ELY
+ CASE: ~LLRF
+
+
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      16:52:12
+
+ CASE: WLX
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF LOAD STEPS                      =           2
+
+
+ Solving load steps:       1 to       2
+ NUMBER OF OUTPUT STEPS SAVED              =           2
+
+
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      16:52:12
+
+ CASE: WLY
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF LOAD STEPS                      =           2
+
+
+ Solving load steps:       1 to       2
+ NUMBER OF OUTPUT STEPS SAVED              =           2
+
+
+ E I G E N   M O D A L   A N A L Y S I S                                16:52:13
+
+ CASE: MODAL
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =        3060
+ NUMBER OF MASS DEGREES OF FREEDOM         =          18
+ MAXIMUM NUMBER OF EIGEN MODES SOUGHT      =          12
+ MINIMUM NUMBER OF EIGEN MODES SOUGHT      =           1
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =          18
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =  -INFINITY-
+ ALLOW AUTOMATIC FREQUENCY SHIFTING        =         YES
+
+
+ Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
+ Number of eigenvalues below shift =      0
+
+ Found mode      1 of     12:  EV= 9.6811292E+01, f=    1.565969, T=    0.638582
+ Found mode      2 of     12:  EV= 1.0365027E+02, f=    1.620337, T=    0.617156
+ Found mode      3 of     12:  EV= 1.3900819E+02, f=    1.876464, T=    0.532917
+ Found mode      4 of     12:  EV= 9.9384982E+02, f=    5.017421, T=    0.199306
+ Found mode      5 of     12:  EV= 1.0538179E+03, f=    5.166577, T=    0.193552
+ Found mode      6 of     12:  EV= 1.3976072E+03, f=    5.949942, T=    0.168069
+ Found mode      7 of     12:  EV= 3.3955040E+03, f=    9.274110, T=    0.107827
+ Found mode      8 of     12:  EV= 3.5467693E+03, f=    9.478434, T=    0.105503
+ Found mode      9 of     12:  EV= 4.6221671E+03, f=   10.820391, T=    0.092418
+ Found mode     10 of     12:  EV= 8.0894260E+03, f=   14.314592, T=    0.069859
+ Found mode     11 of     12:  EV= 8.2919807E+03, f=   14.492699, T=    0.069000
+ Found mode     12 of     12:  EV= 1.0730877E+04, f=   16.486852, T=    0.060654
+
+ NUMBER OF EIGEN MODES FOUND               =          12
+ NUMBER OF ITERATIONS PERFORMED            =           1
+ NUMBER OF STIFFNESS SHIFTS                =           0
+
+
+ A N A L Y S I S   C O M P L E T E                          2021/03/27  16:52:13
+
+
+ ETABS Ultimate 64-bit 18.1.1 Build 2148 (Analysis Build 9780/64)
+ File: C:\Users\Sankar\Downloads\ETABS COURSE\ASSIGNMENT3\ASS3.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2021/03/27  16:52:20
+
+
+ RUNNING ANALYSIS AS A SEPARATE PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =        1060
+    WITH RESTRAINTS                        =          46
+    WITH MASS                              =          22
+ NUMBER OF FRAME/TENDON ELEMENTS           =         672
+ NUMBER OF SHELL ELEMENTS                  =         864
+ NUMBER OF CONSTRAINTS/WELDS               =           6
+ NUMBER OF LOAD PATTERNS                   =          12
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =           9
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =      15.895 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+ (Env. variable SAPFIRE_NUM_THREADS        =           0)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           4
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           4
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           4
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           4
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           4
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           4
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =           4
+
+
+ E L E M E N T   F O R M A T I O N                                      16:52:20
+
+
+ NUMBER OF COUPLED CONSTRAINT EQUATIONS    =           0
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        16:52:21
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        3060
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =       49851
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   S T A T I C   C A S E S                                  16:52:21
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF CASES TO SOLVE            =           2
+ NUMBER OF CASES TO SOLVE PER BLOCK        =           2
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: ELX
+ CASE: ELY
+
+
+ A N A L Y S I S   C O M P L E T E                          2021/03/27  16:52:22
