@@ -204,6 +204,30 @@ l = ["car","bike",30,40,3.0,True]
 l.append("Scooters")
 print(l)
 
+l = ["car","bike"]
+l.extend([30,40,3.0,True])
+print(l)
+
+l = ["car","bike",30,40,3.0,True]
+l.remove("bike")
+print(l)
+
+l = ["car","bike",30,40,"bike",3.0,True]
+l.remove("bike")
+print(l)
+
+l = ["car","bike",30,40,3.0,True]
+l.pop(2)
+print(l)
+
+l = ["car","bike",30,40,3.0,True]
+l.pop()
+print(l)
+
+l = ["car","bike",30,40,3.0,True]
+del l[2:]
+print(l)
+
 # arrays are Changable/Mutable
 import numpy as np
 a=np.array([20,30,40,50,60,70])

@@ -1,3 +1,11 @@
+# Range
+# x=range(10)
+# print (list(x))
+# y=range(0,10)
+# print (list(y))
+# z=range(0,10,2)
+# print (list(z))
+
 # # Concatinating string with num
 # # x="Total states in USA: "
 # # y=54
@@ -36,6 +44,7 @@
 #     print("italian")
 # else:
 #     print("Dont know")
+
 
 # FOR LOOP
 print("FL1")
