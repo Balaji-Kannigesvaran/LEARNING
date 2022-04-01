@@ -2,6 +2,11 @@ import REACT from "react";
 import "./Expenses.css";
 import ExpenseItem from "./ExpenseItem";
 import Card from "../UI/Card";
+import NewExpense from "../NewExpense/NewExpense";
+
+const addExpenseHandler = (expense) => {
+  console.log(expense);
+};
 
 function Expenses() {
   const expense = [
@@ -30,8 +35,10 @@ function Expenses() {
       date: new Date(2021, 4, 12),
     },
   ];
+
   return (
     <Card className="expenses">
+      <NewExpense ONAddExpense={addExpenseHandler}></NewExpense>;
       <ExpenseItem
         title={expense[0].title}
         amount={expense[0].amount}
