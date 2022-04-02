@@ -1,3 +1,13 @@
+#Prime Number
+num=6
+for i in range (2,num):
+  if num%i == 0:
+    print ("Not Prime")
+    break
+else:
+  print ("Prime")
+# Add for 1 and 2 also
+
 #String Reverse & Palindrome
 def palindrome1(ipstr):
   revstr = list(ipstr)

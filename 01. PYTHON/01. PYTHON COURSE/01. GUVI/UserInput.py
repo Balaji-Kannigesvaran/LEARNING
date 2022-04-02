@@ -6,6 +6,10 @@
 # z=x+y
 # print(z)
 
-x,y = input("Enter Two Numbers: ").split(" ")
-z=int(x)+int(y)
-print(z)
+def main():
+  x,y = input("Enter Two Numbers: ").split(" ")
+  z=int(x)+int(y)
+  print(z)
+
+if __name__ == "__main__":
+  main()

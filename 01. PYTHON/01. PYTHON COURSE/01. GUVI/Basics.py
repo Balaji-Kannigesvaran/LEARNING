@@ -45,7 +45,6 @@
 # else:
 #     print("Dont know")
 
-
 # FOR LOOP
 print("FL1")
 nos=[1,2,3,4,5,66,77,88,100]
@@ -276,3 +275,30 @@ x="Total states in USA: "
 y=54
 print(x+str(y))
 
+#Function
+def sum(a,*b):
+    c=a
+    for i in b:
+        c=c+i
+    print (c)
+sum(3,1,6,7,8)
+
+def person (name, **data):
+    print (name)
+    print (data)
+
+person ("Balaji",age=26,city="chennai",mob="987654321")
+
+def count (lst):
+    even = 0
+    odd = 0
+    for i in lst:
+        if (i%2==0):
+            even += 1
+        else:
+            odd += 1
+    return even,odd
+
+num=[1,2,3,4,5,6,7,5]
+even, odd = count(num)
+print(even, odd)
