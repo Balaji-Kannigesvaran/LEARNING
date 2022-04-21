@@ -28,7 +28,7 @@ def alphanumericpresece(start,end,ip_str):
   else:
     print("Out of range 👎")
 
-alphanumericpresece(""A1A",H9Z","D5F")
+alphanumericpresece("A1A","H9Z","D5F")
 
-if ((ord('D5F')>=ord('A1A')) and (ord('D5F')<=ord('H9Z'))):
-  print ('Within Range')
+# if ((ord('D5F')>=ord('A1A')) and (ord('D5F')<=ord('H9Z'))):
+#   print ('Within Range')
