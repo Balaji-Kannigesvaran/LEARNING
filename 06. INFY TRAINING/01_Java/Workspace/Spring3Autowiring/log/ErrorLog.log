@@ -1,5 +1,0 @@
-10-Jun-2022 19:28:53 ERROR - Service.WRONG_CREDENTIALS
-com.infy.exception.InfyBankException: Service.WRONG_CREDENTIALS
-	at com.infy.service.CustomerLoginServiceImpl.authenticateCustomer(CustomerLoginServiceImpl.java:26) [classes/:?]
-	at com.infy.controller.CustomerLoginController.authenticateCustomer(CustomerLoginController.java:17) [classes/:?]
-	at com.infy.ui.UserInterface.main(UserInterface.java:29) [classes/:?]
