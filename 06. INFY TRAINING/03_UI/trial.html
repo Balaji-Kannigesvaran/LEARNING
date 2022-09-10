@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>From layout</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--Inline form-->
+      <h4>Inline form</h4>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            class="form-control"
+            id="username"
+            placeholder="Enter Username"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Enter Password"
+          />
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary btn-lg">Login</button>
+          <button class="btn btn-danger btn-sm btn">back</button>
+          <button class="btn btn-danger btn-lg btn-block">home</button>
+        </div>
+      </form>
+      <br />
+      <!--Vertical form - default alignment-->
+      <h4>Vertical form</h4>
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            class="form-control"
+            id="username"
+            placeholder="Enter Username"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Enter Password"
+          />
+        </div>
+        <button type="submit" class="btn btn-success btn-sm">Login</button>
+        <button class="btn btn-info btn-lg">back</button>
+        <button class="btn btn-danger btn-lg btn-block">home</button>
+      </form>
+    </div>
+  </body>
+</html>
