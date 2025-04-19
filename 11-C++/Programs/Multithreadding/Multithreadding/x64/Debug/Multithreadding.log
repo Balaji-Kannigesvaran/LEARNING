@@ -1,0 +1,9 @@
+﻿  Multithreadding.cpp
+E:\LEARNING\11-C++\Programs\Multithreadding\Multithreadding.cpp(18,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\LEARNING\11-C++\Programs\Multithreadding\Multithreadding.cpp(51,9): warning C4091: '': ignored on left of 'std::chrono::duration<__int64,std::ratio<1,1>>' when no variable is declared
+E:\LEARNING\11-C++\Programs\Multithreadding\Multithreadding.cpp(52,9): warning C4091: '': ignored on left of 'std::chrono::duration<__int64,std::milli>' when no variable is declared
+E:\LEARNING\11-C++\Programs\Multithreadding\Multithreadding.cpp(53,9): warning C4091: '': ignored on left of 'std::chrono::duration<__int64,std::micro>' when no variable is declared
+E:\LEARNING\11-C++\Programs\Multithreadding\Multithreadding.cpp(64,5): warning C4834: discarding return value of function with [[nodiscard]] attribute
+E:\LEARNING\11-C++\Programs\Multithreadding\Multithreadding.cpp(65,5): warning C4834: discarding return value of function with [[nodiscard]] attribute
+E:\LEARNING\11-C++\Programs\Multithreadding\Multithreadding.cpp(66,5): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  Multithreadding.vcxproj -> E:\LEARNING\11-C++\Programs\Multithreadding\x64\Debug\Multithreadding.exe
